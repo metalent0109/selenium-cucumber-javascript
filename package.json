@@ -1,0 +1,26 @@
+{
+  "name": "cucumberseleniumframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alert": "cucumber-js feature/alert.feature",
+    "assertion": "cucumber-js feature/assertion.feature",
+    "click": "cucumber-js feature/click.feature",
+    "input": "cucumber-js feature/input.feature",
+    "navigation": "cucumber-js feature/navigation.feature",
+    "progressive": "cucumber-js feature/progressive.feature",
+    "screenshot": "cucumber-js feature/screenshot.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chromedriver": "^107.0.3",
+    "cucumber-html-reporter": "^5.5.0",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "selenium-webdriver": "^4.3.1"
+  }
+}
